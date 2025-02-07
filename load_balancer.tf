@@ -8,6 +8,7 @@ resource ibm_is_lb lb {
     type           = var.type
     resource_group = var.resource_group_id
     profile        = var.profile_lb
+    route_mode     = var.route_mode_lb
     
 }
 
