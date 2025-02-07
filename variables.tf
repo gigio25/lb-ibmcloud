@@ -230,3 +230,9 @@ variable profile_lb {
   default     = "network-fixed"
 }
 
+variable route_mode_lb {
+  description = "The IBM Cloud Resource Group ID"
+  type        = bool
+  default     = true
+}
+
