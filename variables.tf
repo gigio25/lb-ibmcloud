@@ -213,7 +213,7 @@ variable pool_member_port {
 #################################### TESTE ##########################################
 
 variable "subnet_list" {
-  description = "Inserir os IDs das subnets do XXXXXXXXX no formato ["",""]. Exemplo: ["id_7366367367387","id_872673753652"] "
+  description = "Inserir os IDs das subnets do XXXXXXXXX no formato [ Id_SubnetA,ID_SbnetB]. Exemplo: [id_7366367367387,id_872673753652] os valores dos IDs devem estar entre aspas dupla"
   type    = set(string)
   default = [""]
 }
