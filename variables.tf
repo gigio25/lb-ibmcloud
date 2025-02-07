@@ -31,7 +31,7 @@ variable vpc_name {
 }
 
 variable unique_id {
-  description = "The IBM Cloud platform API key needed to deploy IAM enabled resources"
+  description = "Nome do recurso Load Balancer"
   type        = string
   default     = "asset-module-lb"
 }
