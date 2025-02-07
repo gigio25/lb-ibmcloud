@@ -236,3 +236,10 @@ variable route_mode_lb {
   default     = true
 }
 
+/////////////////
+# TAG _ Tag Para Identificar LB
+/////////////////
+variable "tag1" {
+  description = "Tag for resources to be used for this core networking"
+  default     = "Desenvolvimento"
+}
