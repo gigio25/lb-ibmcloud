@@ -214,7 +214,7 @@ variable pool_member_port {
 
 variable "subnet_list" {
   type    = set(string)
-  default = ["subnetA", "SUBNETB"]
+  default = [""]
 }
 
 variable resource_group_id {
