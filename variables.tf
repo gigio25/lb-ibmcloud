@@ -231,7 +231,7 @@ variable profile_lb {
 }
 
 variable route_mode_lb {
-  description = "The IBM Cloud Resource Group ID"
+  description = "Esta variavel ativa o route mode. Somente pode ser ativado quando o LB for privado"
   type        = bool
   default     = true
 }
