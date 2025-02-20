@@ -121,7 +121,7 @@ variable unique_id {
 variable type {
     description = "Load Balancer type, can be public or private"
     type        = string
-    default     = "private"
+    default     = ""
 }
 
 variable listener_port {
